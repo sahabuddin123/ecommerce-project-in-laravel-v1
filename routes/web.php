@@ -31,3 +31,13 @@ require 'admin.php';
 // Route::view('/uicards', 'admin.dashboard.ui-cards');
 // Route::view('/widgest', 'admin.dashboard.widgest');
 
+Route::view('/home-user', 'user.pages.index');
+Route::view('/cart-user', 'user.pages.cart');
+Route::view('/catalog-list-user', 'user.pages.catalog-list-page');
+Route::view('/checkout-user', 'user.pages.checkout');
+Route::view('/product-detail-user', 'user.pages.product-detail');
+Route::view('/register-user', 'user.pages.register');
+// Route::get('/homeuser', function () {
+//     return view('guast.pages.index');
+// });
+
