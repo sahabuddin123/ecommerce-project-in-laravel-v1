@@ -10,11 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+require 'admin.php';
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('/admin', 'admin.dashboard.index');
+// Route::view('/admin', 'admin.dashboard.index');
 Route::view('/blankpage', 'admin.dashboard.blank-page');
 Route::view('/charts', 'admin.dashboard.charts');
 Route::view('/fcomponentes', 'admin.dashboard.form-components');
